@@ -1,0 +1,69 @@
+.section {
+    position: relative;
+    background-image: url("../components/images/contact-pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 100vh;
+    padding: 30px;
+    position: relative;
+}
+
+/* .card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+} */
+
+.form-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    right: 10%;
+}
+
+#my-form {
+    padding: 2rem;
+    width: 350px;
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#my-form label {
+    display: block;
+}
+
+#my-form input[type=‘text’] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 42, 42);
+}
+
+#my-form .form-control {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+#textbox {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
